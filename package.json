@@ -1,0 +1,25 @@
+{
+  "name": "swapi-be",
+  "version": "1.0.0",
+  "description": "SWAPI Back End server",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
+    "server": "^1.0.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "keywords": []
+}
