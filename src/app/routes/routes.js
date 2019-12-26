@@ -6,6 +6,8 @@ module.exports = (app, cors, mongoose) => {
     {useNewUrlParser: true},
      () => console.log("connected to db")
   )
+  app.options('*', cors)
+
     app.get('/MyStarships', async (req, res) =>{
       try {
         const posts = await Post.find()
