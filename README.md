@@ -3,7 +3,7 @@ node server with express and conection with mongoDB
 
 ## Heroku app page
 
-http://swapi-front-end.herokuapp.com/
+http://swapi-back-end.herokuapp.com/
 work in a bug that return incorrect data format in my starships
 
 
@@ -11,19 +11,19 @@ work in a bug that return incorrect data format in my starships
 
 ## Get all starships
 
-http://swapi-front-end.herokuapp.com/MyStarships
+http://swapi-back-end.herokuapp.com/MyStarships
 
 return array with all values of Starships in MongoDB
 
 ## Get specific starship
 
-http://swapi-front-end.herokuapp.com/MyStarships/:id
+http://swapi-back-end.herokuapp.com/MyStarships/:id
 
 Is possible get specific starship with the ID of starships in mongoDB
 
 ## Save a new Starships
  
-http://swapi-front-end.herokuapp.com/saveStarship
+http://swapi-back-end.herokuapp.com/saveStarship
 
 Require 3 parameters from return a new starship value
  - name: A string with the name of new starship
